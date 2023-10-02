@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header" data-header>
+            <div class="nav-logo">
+                <p class="nav-name"> </p>
+                <span> </span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-menu-btn">
+                <i class='bx bx-menu kl' onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-name">
+                        <p>I'm <Span>Dilip kumar K M</Span></p>
+                        <p><span>Student</span> at K.S.R College Of Engineering</p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p></p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn">Download CV <i class=" uil-file-alt"></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><a href="https://www.linkedin.com/in/dilip-kumar-k-m-121149243" class="term"><i class='bx bxl-linkedin-square kl'></i></a></div>
+                        <div class="icon"><a href="https://github.com/dilip237"><i class='bx bxl-github kl'></i></a></div>
+                        <div class="icon"><a href="https://instagram.com/_dk7___?utm_source=qr&igshid=YzU1NGVlODEzOA=="><i class='bx bxl-instagram kl'></i></a></div>
+                        <div class="icon"><a href="https://www.facebook.com/profile.php?id=100045855757498"><i class='bx bxl-facebook-circle kl'></i></a></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="profile.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My introduction</h3>
+                            <p>
+                                Hi I'm Dilip Kumar K M and I am currently pursuing a B.E in Computer Science and Engineering at KSR College of Engineering and i'm a Basketball Player achieved 3rd position in zonal level tournament conducted by Anna university held on November 2022 at Kongu Engineernig College.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <h1>Education Details</h1>
+                        </div>
+                        <div class="education">
+                            <div>
+                                <h3>Bachelors Degree(2025)</h3>
+                                <p>B.E Computer Science and Engineering in K.S.R College Of Engineering with 8.510CGPA(upto 4th semester)</p>
+                            </div>
+                        </div>
+                        <div class="education">
+                            <h3>HSC(2021)</h3>
+                            <p>Sri Vidhyalakshmi Matric HR.SEC School with 88.496%</p>
+                        </div>
+                        <div class="education">
+                            <h3>SSLC(2019)</h3>
+                            <p>ST. John's Matric Hr. Sec. School with 86%</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- -------------- SKILLS BOX ---------------- -->
+            <section class="section" id="skills">
+                <div class="top-header">
+                    <h1>My Skills</h1>
+                </div>
+                <div class="skill-container">
+                    <div class="skill-box">
+                        <i class='bx bxs-devices'></i>
+                        <h3>Front-End</h3>
+                        <label>HTML</label>
+                        <label>CSS</label>
+                    </div>
+                    <div class="skill-box">
+                        <i class='bx bx-terminal'></i>
+                        <h3>Back-End</h3>
+                        <label>Java</label>
+                        <label>Python</label>
+                        <label>C++</label>
+                    </div>
+                    <div class="skill-box">
+                        <i class='bx bxs-data'></i>
+                        <h3>Database</h3>
+                        <label>Sql</label>
+                    </div>
+                </div>
+            </section>
+            <!-- -------------- CONTACT BOX ---------------- -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Contact Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2><center>Find Me</center></h2>
+                            <p><i class='bx bxl-gmail'></i>dilip72765@gmail.com</p>
+                            <p><i class='bx bxs-phone'></i>+91 8825907633</p>
+                            <p><i class='bx bxs-map' ></i>No 154/8, Melrangasamuthiram Village, Agravaram Post, Gudiyatham TK, Vellore District 632601</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <form action="mailto:dilipkumarkmcse2022@ksrce.ac.in" method="POST">
+                            <div class="form-control">
+                                <div class="form-inputs">
+                                    <input type="text" class="input-field" placeholder="Name">
+                                    <input type="text" class="input-field" placeholder="Email">
+                                </div>
+                                <div class="text-area">
+                                    <textarea placeholder="Message"></textarea>
+                                </div>
+                                <div class="form-button">
+                                    <button class="btn">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Dilip kumar K M</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><a href="https://www.linkedin.com/in/dilip-kumar-k-m-121149243" class="term"><i class='bx bxl-linkedin-square kl'></i></a></div>
+                <div class="icon"><a href="https://github.com/dilip237"><i class='bx bxl-github kl'></i></a></div>
+                <div class="icon"><a href="https://instagram.com/_dk7___?utm_source=qr&igshid=YzU1NGVlODEzOA%3D%3D"><i class='bx bxl-instagram kl'></i></a></div>
+                <div class="icon"><a href="https://www.facebook.com/profile.php?id=100045855757498"><i class='bx bxl-facebook-circle kl'></i></a></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; Dilip kumar K M</a> - All rights reserved</p>
+            </div>
+        </footer>
+        <a href="#top" class="go-top" data-go-top title="Go to Top">
+            <i class='bx bx-up-arrow-circle kl'></i>
+          </a>
+    </div>
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- ----- MAIN JS ----- -->
+    <script src="./script.js"></script>
+</body>
+</html>
